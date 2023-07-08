@@ -1,0 +1,103 @@
+
+        * {
+            padding: 0px;
+            margin: 0px;
+            color: WHITE;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        #container {
+            display: flex;
+        }
+
+        #navbar,
+        ul {
+            list-style: none;
+            display: flex;
+
+        }
+
+        #navbar,
+        ul,
+        li {
+            font-weight: bold;
+            font-size: 20px;
+            padding: 10px 30px;
+            color: white;
+            cursor: pointer;
+        }
+        #navbar,
+        ul,
+        li:hover{
+                color:rgba(0, 255, 136, 0.733);
+        }
+
+        #btn {
+            display: inline;
+            position: absolute;
+            top: 27px;
+            right: 65px;
+            border: 0px solid white;
+            background-color: rgba(0, 255, 136, 0.733);
+            padding: 8px 13px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            cursor: pointer;
+            font-family: 'Alkalami', serif;
+        }
+        #btn:hover{
+            color:rgba(0, 255, 136, 0.733);
+            background-color: rgb(92, 90, 226);
+        }
+        #img {
+            height: 350px;
+            width: 250px;
+            padding: 49px 66px;
+        }
+        #headcontant{
+            display: flex;
+        }
+        #devloperinfo{
+                 padding: 80px 20px;  
+        }
+        #devloperinfo h4{
+            padding: 7px 0px;
+            font-size: 22px;
+            color:rgba(0, 255, 136, 0.733); 
+            font-family: 'Ubuntu', sans-serif;
+        }
+        #devloperinfo h1{
+            word-spacing: 8px;
+            font-weight: 100;
+            font-size: 40px;
+            font-family: 'Public Sans', sans-serif;
+        }
+        #devloperinfo h2{
+            font-weight: 100;
+            font-size: 40px;
+            font-family: 'Public Sans', sans-serif;
+            color: rgba(0, 255, 136, 0.733);
+        }
+        #devloperinfo p{
+            padding: 10px 0px;
+            font-weight: 200;
+            font-family: 'Silkscreen', cursive;
+        }
+        #headbtn{
+            border:2px solid  rgba(0, 255, 136, 0.733);
+            border-radius: 4px;
+            color: rgba(0, 255, 136, 0.733);
+            padding: 6px 19px;
+            background-color: black;
+            cursor: pointer;
+            margin: 7px 0px;
+        }
+        #headbtn:hover{
+            color: black;
+            background-color:rgba(0, 255, 136, 0.733);
+        }
+  
